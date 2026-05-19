@@ -8,7 +8,7 @@ from asana.rest import ApiException
 # --- Imports do seu ambiente (Proxy, etc.) ---
 try:
     # Importa as funções do seu novo arquivo funcs.py
-    from funcs import proxy_corporativo, obter_usuario_logado
+    from extracao_Asana.src.funcs import proxy_corporativo, obter_usuario_logado
     
     print("Ativando proxy...")
     proxy_corporativo() # Ativando seu proxy
